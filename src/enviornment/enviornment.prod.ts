@@ -8,7 +8,7 @@ export const environment = {
     streamingApiUrl: 'https://streaming-availability.p.rapidapi.com/shows/search/title', // URL for streaming availability
       
     // Auth API
-    apiUrl: 'http://localhost:5000/api/auth',  // Replace with the production auth API URL
+    apiUrl: 'https://filmreviews.onrender.com',  // Replace with the production auth API URL
     apiUrl1: 'https://api.themoviedb.org/3/movie/now_playing',
     apiKey: 'd1b50bd15e18ead693839d26baa04e4a', //this is tmdb apikey
 
