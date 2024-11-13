@@ -1,0 +1,22 @@
+/* Dark theme styles */
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+/* Other elements that should change with dark theme */
+body.dark-theme .container, 
+body.dark-theme .card, 
+body.dark-theme .navbar-brand,
+body.dark-theme .btn {
+  background-color: #121212;
+  color: white;
+}
+
+/* Ensure the navbar stays black regardless of the theme */
+.navbar {
+  background-color: #212529 !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
